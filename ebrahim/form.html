@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+<body>
+    <div id="reportBug">
+        <form class="form-popup">
+            <h1 class="grey header">Bug Report</h1>
+            <div class="inner-form">
+                <label> Title* </label> <br>
+                <input type="text" class="full-width">
+                <br><br>
+                <label>Description* </label><br>
+                <textarea rows="2" class="full-width"></textarea>
+                <br> <br>
+
+                <label for="OS">Operating System:</label> <br>
+                <select>
+                    <option value="Windows">Windows</option>
+                    <option value="Linux">Linux</option>
+                </select>
+                <br> <br>
+                <label for="product"> Product* </label> <br>
+                <select>
+                    <option value="Formoid">Formoid</option>
+                    <option value="Linux">Linux</option>
+                </select> <br> <br>
+                <label>Version* </label><br>
+                <input class="text-half" type="text"></input>
+                <br> <br>
+                <label>License: </label> <br>
+                <input type="radio" name="Free" value="Free" unchecked> Free <br>
+                <input type="radio" name="Business" value="Business" unchecked> Business <br> <br>
+                <label for="security"> Security:</label> <br>
+                <select>
+                    <option value="Critical">Critical</option>
+                    <option value="Normal">Normal</option>
+                </select>
+                <br>
+                <hr>
+                <label>Attachments</label> <br>
+                <input class="file-input" type="file">
+                <hr>
+            </div>
+            <div>
+                <input class="submit" type="submit">
+            </div>
+            <br> <br> <br>
+
+
+
+
+</body>
+
+</html>
