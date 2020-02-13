@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title> abc</title>
+    <script type="text/javascript">
+        var employee_list = [{
+            name: 'dushyant',
+            age: 21,
+            salary: 2000,
+            DOB: 12 / 02 / 1998
+        }, {
+            name: 'pawan',
+            age: 25,
+            salary: 1200,
+            DOB: 12 / 02 / 1994
+        }, {
+            name: 'sachin',
+            age: 21,
+            salary: 10,
+            DOB: 12 / 02 / 1998
+        }, {
+            name: 'khalid',
+            age: 20,
+            salary: 18,
+            DOB: 12 / 02 / 1999
+        }, {
+            name: 'kamal',
+            age: 23,
+            salary: 9000,
+            DOB: 12 / 02 / 1996
+        }, {
+            name: 'jagriti',
+            age: 22,
+            salary: 30,
+            DOB: 12 / 02 / 1997
+        }];
+        console.log('======================================')
+        for (key in employee_list) {
+            if (employee_list[key].salary < 1000) {
+                if (employee_list[key].salary > 20)
+                    console.log(employee_list[key])
+            }
+        }
+
+        console.log('======================================')
+    </script>
+</head>
+
+</html>
