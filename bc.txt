@@ -1,8 +1,9 @@
-<<<<<<< Updated upstream
-hello ebrahimsdfhjaksdfhlasdfkl
-=======
-hello ebrahimc
-asdfklasdf
-asdfjklasf
-
->>>>>>> Stashed changes
+line 1
+line 2
+line 3
+hello
+world
+my name is ebrahim
+sl
+line 5
+line 6
