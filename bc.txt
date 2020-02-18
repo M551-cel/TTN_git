@@ -1,9 +1,6 @@
 line 1
 line 2
 line 3
-hello
-world
-my name is ebrahim
-sl
+line 4
 line 5
 line 6
