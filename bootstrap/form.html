@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bug_Report_Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container"> <br> <br>
+
+        <div class="card" style="border-color: gray;">
+            <div class="card-header" style="background-color:#A0A0A0; font-size: 2.5rem;">Bug Report</div>
+            <div class="card-body">
+
+                <div class="form-group">
+                    <label for="text">Title* </label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="text">Description* </label>
+                    <textarea class="md-textarea form-control" rows="3"></textarea>
+
+                </div>
+                <div class="dropdown">
+                    <label for="text">Operating System: </label> <br>
+                    <button type="button" class="btn btn-info dropdown-toggle w-100 ml-0 text-left" data-toggle="dropdown">
+                      WindowsXp
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">WindowsXP</a>
+                        <a class="dropdown-item" href="#">Linux</a>
+                        <a class="dropdown-item" href="#">None</a>
+                    </div>
+                </div> <br>
+
+
+
+                <div class="dropdown">
+                    <label for="text">Product: </label> <br>
+                    <button type="button" class="btn btn-info dropdown-toggle w-100 ml-0 text-left" data-toggle="dropdown">
+                      Formoid:
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">formoid</a>
+                        <a class="dropdown-item" href="#">Linux</a>
+                        <a class="dropdown-item" href="#">None</a>
+                    </div>
+                </div> <br>
+
+                <div class="form-group">
+                    <label for="text">Version* </label>
+                    <input class="w-25 form-control"></textarea>
+
+                </div>
+                <label for="text">License: </label> <br>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" class="custom-control-input" id="defaultInline1" name="inlineDefaultRadiosExample">
+                    <label class="custom-control-label" for="defaultInline1">Free</label>
+                </div>
+                <div class="custom-control custom-radio float-right custom-control-inline">
+                    <input type="radio" class="custom-control-input" id="defaultInline1" name="inlineDefaultRadiosExample">
+                    <label class="custom-control-label " for="defaultInline1">Business</label>
+                </div> <br> <br>
+                <div class="dropdown">
+                    <label for="text">Security: </label> <br>
+                    <button type="button" class="btn btn-info dropdown-toggle w-100 ml-0 text-left" data-toggle="dropdown">
+                      Critical:
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Critical</a>
+                        <a class="dropdown-item" href="#">Linux</a>
+                        <a class="dropdown-item" href="#">None</a>
+                    </div>
+                </div> <br>
+                <label class="text">Attachments: </label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2">Choose file</span>
+                    </div>
+                </div> <br>
+            </div>
+            <div class="card-footer" style="background-color: lightgray;"><button type="submit" class="btn btn-info float-right">Send</button></div>
+        </div>
+    </div>
+    <br> <br>
+
+</body>
+
+</html>
