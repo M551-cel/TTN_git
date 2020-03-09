@@ -1,7 +1,0 @@
-nodes.getnodes:
-  path: '/getnodes'
-  defaults:
-    _controller: 'Drupal\nodes\Controller\NodesController::nodelist'
-    _title: 'Test Node Controller'
-  requirements:
-    _permission: 'access_content'
