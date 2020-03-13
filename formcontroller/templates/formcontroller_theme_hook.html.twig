@@ -1,0 +1,23 @@
+<h1>Data from the Custom Form</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>City</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in variable1 %}
+        <tr>
+            {% for item1 in item %}
+            <td>{{ item1 }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}  
+    </tbody>
+</table>

@@ -1,0 +1,15 @@
+formcontroller:
+  path: '/myform'
+  defaults:
+    _form: '\Drupal\formcontroller\Forms\SimpleForm'
+    _title: '<div style="color:green">My Custom Form using Ajax</div>'
+  requirements:
+    _permission: 'access content'
+
+mymod.content:
+  path: '/mymod' 
+  defaults: 
+    _controller: '\Drupal\formcontroller\Controller\FormController::content' 
+    _title: 'Form Data'
+  requirements: 
+    _role: 'administrator' 
