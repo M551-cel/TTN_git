@@ -1,0 +1,27 @@
+<div class="layout-container">
+
+<header role="banner">
+{{ page.header }}
+</header>
+{% if page.page_test %}
+<header role="contentinfo">
+{{ page.page_test }}
+</header>
+{% endif %}
+
+<main role="main">
+<div class="layout-container">
+{{ page.content }}
+</div>
+{% if page.sidebar %}
+<aside class="layout-sidebar-first" role="complementary">
+{{ page.sidebar }}
+</aside>
+{% endif %}
+</main>
+{% if page.footer %}
+<footer role="contentinfo">
+{{ page.footer }}
+</footer>
+{% endif %}
+</div>

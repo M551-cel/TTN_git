@@ -1,0 +1,14 @@
+name: test
+type: theme
+base-theme: false
+package: custom
+description: This is my custom theme
+core: 8.x
+libraries:
+  - test/global-styling
+regions:
+  content: 'Main content'
+  header: 'Header'
+  footer: 'Footer'
+  sidebar: 'Sidebar'
+  page_test: 'Page Test'
